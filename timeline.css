@@ -1,0 +1,37 @@
+.timeline {
+    position: relative;
+}
+
+.timeline:before {
+    content: "";
+    width: 2px;
+    background-color: #DDD;
+    position: absolute;
+    left: 3px;
+    top: 22px;
+    bottom: 22px;
+}
+
+.timeline__item {
+    display: flex;
+    padding: .5rem 0;
+    line-height: 28px;
+}
+
+.timeline__content {
+    flex-grow: 1;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.timeline__content:before {
+    content:"";
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: #DDD;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 4px);
+}

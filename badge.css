@@ -1,0 +1,39 @@
+.badge {
+    border-radius: 0.25rem;
+    padding: 0.25rem .5rem;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    line-height: 1rem;
+}
+
+.badge--primary {
+    background-color: #5867dd;
+    border: 1px solid #5867dd;
+}
+
+.badge--secondary {
+    border: 1px solid #e2e5ec;
+    color: #6c7293
+}
+
+.badge--success {
+    background-color: #0abb87;
+    border: 1px solid #0abb87;
+}
+
+.badge--info {
+    background-color: #5578eb;
+    border: 1px solid #5578eb;
+}
+
+.badge--warning {
+    background-color: #ffb822;
+    border: 1px solid #ffb822;
+    color: black;
+}
+
+.badge--danger {
+    background-color: #fd397a;
+    border: 1px solid #fd397a;
+}

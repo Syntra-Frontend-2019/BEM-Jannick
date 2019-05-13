@@ -1,0 +1,43 @@
+.button {
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.button--lg {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+.button--primary {
+    background-color: #5867dd;
+    border: 1px solid #5867dd;
+}
+
+.button--secondary {
+    border: 1px solid #e2e5ec;
+    color: #6c7293
+}
+
+.button--success {
+    background-color: #0abb87;
+    border: 1px solid #0abb87;
+}
+
+.button--info {
+    background-color: #5578eb;
+    border: 1px solid #5578eb;
+}
+
+.button--warning {
+    background-color: #ffb822;
+    border: 1px solid #ffb822;
+    color: black;
+}
+
+.button--danger {
+    background-color: #fd397a;
+    border: 1px solid #fd397a;
+}
