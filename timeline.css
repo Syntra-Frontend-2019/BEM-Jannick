@@ -1,6 +1,7 @@
 .timeline {
     position: relative;
     padding: 0;
+    margin: 0;
 }
 
 .timeline:before {
@@ -47,4 +48,14 @@
 
 .timeline__item--primary .timeline__content:before {
     background-color: #5867dd;
+}
+
+.portlet__header > * {
+    margin-right: .5rem;
+}
+
+.portlet__title,
+.portlet__logo,
+.portlet__subtitle {
+    margin-right: .5rem;
 }
