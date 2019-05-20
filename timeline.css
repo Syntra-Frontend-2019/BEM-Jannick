@@ -35,3 +35,15 @@
     left: 0;
     top: calc(50% - 4px);
 }
+
+.timeline__item--warning .timeline__content:before {
+    background-color: #ffb822;
+}
+
+.timeline__item--success .timeline__content:before {
+    background-color: #0abb87;
+}
+
+.timeline__item--primary .timeline__content:before {
+    background-color: #5867dd;
+}
