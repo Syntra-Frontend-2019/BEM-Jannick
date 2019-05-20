@@ -1,5 +1,6 @@
 .timeline {
     position: relative;
+    padding: 0;
 }
 
 .timeline:before {
@@ -33,7 +34,7 @@
     background-color: #DDD;
     position: absolute;
     left: 0;
-    top: calc(50% - 4px);
+    top: calc(50% - 0.25rem);  
 }
 
 .timeline__item--warning .timeline__content:before {

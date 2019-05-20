@@ -1,0 +1,41 @@
+.portlet {
+    border: 1px solid #EEE;
+    border-radius: 5px;
+    max-width: 90%;
+    margin: auto;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.portlet__header,
+.portlet__body,
+.portlet__footer {
+    padding: 1.5rem;
+}
+
+.portlet__body {
+    border-bottom: 1px solid #EEE;
+    border-top: 1px solid #EEE;
+}
+
+.portlet__header {
+    display: flex;
+    line-height: 2rem;
+}
+
+.portlet__title {
+    margin: 0;
+    color: rgb(51, 50, 58);
+}
+
+.portlet__icon {
+    margin-right: 1rem;
+    color: #888;
+    font-size: 2rem;
+}
+
+.portlet__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

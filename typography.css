@@ -1,4 +1,12 @@
+@import "https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css";
+
 body {
     font-size: 16px;
     line-height: 24px;
+    font-family: sans-serif;
+}
+
+h3 small {
+    color: #888;
+    font-weight: 400;
 }

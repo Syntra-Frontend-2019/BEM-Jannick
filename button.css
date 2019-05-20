@@ -41,3 +41,8 @@
     background-color: #fd397a;
     border: 1px solid #fd397a;
 }
+
+.button--text {
+    color: #5578eb;
+    font-weight: bold;
+}
